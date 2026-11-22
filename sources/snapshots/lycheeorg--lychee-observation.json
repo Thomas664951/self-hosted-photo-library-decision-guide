@@ -1,0 +1,38 @@
+{
+  "repository": "LycheeOrg/Lychee",
+  "checked_at": "2026-11-21T21:15:14.205816+08:00",
+  "revision": "ef9339bac648a30557fb4e8dfda65af9d3e67268",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/LycheeOrg/Lychee.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nef9339bac648a30557fb4e8dfda65af9d3e67268\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/README.md",
+      "final_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/README.md",
+      "path": "sources/snapshots/lycheeorg--lychee-readme.txt",
+      "sha256": "73415ea55d6bdcf1976b795bb9c3d8fe2f8c31518ff8dddf40dd74709bb7532b",
+      "http_status": 200,
+      "line_count": 144,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/LICENSE",
+      "path": "sources/snapshots/lycheeorg--lychee-license.txt",
+      "sha256": "ded925c65b434544829558c614c41a58eee27a3996b03e9faa80f92d9784c155",
+      "http_status": 200,
+      "line_count": 22,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

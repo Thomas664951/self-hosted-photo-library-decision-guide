@@ -1,0 +1,38 @@
+{
+  "repository": "photoview/photoview",
+  "checked_at": "2026-11-21T21:15:11.624059+08:00",
+  "revision": "7cd83fb845d5af0ef98792e8c8094894f489773f",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/photoview/photoview.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n7cd83fb845d5af0ef98792e8c8094894f489773f\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/README.md",
+      "final_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/README.md",
+      "path": "sources/snapshots/photoview--photoview-readme.txt",
+      "sha256": "e02160537309e50ca0b72dd5084e8621331822aa3e3692d7ca34d3f434aa777f",
+      "http_status": 200,
+      "line_count": 478,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/LICENSE.txt",
+      "path": "sources/snapshots/photoview--photoview-license.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

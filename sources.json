@@ -1,0 +1,1220 @@
+{
+  "repository": "self-hosted-photo-library-decision-guide",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Immich",
+      "repository": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "clone_url": "https://github.com/immich-app/immich.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:08.972610+08:00",
+      "version_or_commit": "9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/README.md",
+          "final_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/README.md",
+          "path": "sources/snapshots/immich-app--immich-readme.txt",
+          "sha256": "84bbc7ef610df7295eb3866785a2c8d5c8a90fd687c05aecea82344d4b970d40",
+          "http_status": 200,
+          "line_count": 128,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/LICENSE",
+          "path": "sources/snapshots/immich-app--immich-license.txt",
+          "sha256": "a3bad629f67f442b23b5224419e49edafc32e6b9c876b89464f7aafe6091ccde",
+          "http_status": 200,
+          "line_count": 620,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/immich-app/immich.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "immich-app--immich-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/LICENSE",
+          "version_or_commit": "9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee",
+          "checked_at": "2026-11-21T21:15:08.972610+08:00",
+          "snapshot_path": "sources/snapshots/immich-app--immich-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "immich-app-immich-curated-1",
+          "field": "decision_axis_1",
+          "statement": "Uploads photos and videos from mobile and web clients",
+          "upstream_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/README.md",
+          "version_or_commit": "9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee",
+          "checked_at": "2026-11-21T21:15:08.972610+08:00",
+          "snapshot_path": "sources/snapshots/immich-app--immich-readme.txt",
+          "line_start": 81,
+          "line_end": 81,
+          "upstream_excerpt": "| Upload and view videos and photos            | Yes    | Yes |",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        },
+        {
+          "claim_id": "immich-app-immich-curated-2",
+          "field": "decision_axis_2",
+          "statement": "Multi-user support; mobile and web",
+          "upstream_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/README.md",
+          "version_or_commit": "9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee",
+          "checked_at": "2026-11-21T21:15:08.972610+08:00",
+          "snapshot_path": "sources/snapshots/immich-app--immich-readme.txt",
+          "line_start": 86,
+          "line_end": 86,
+          "upstream_excerpt": "| Multi-user support                           | Yes    | Yes |",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        },
+        {
+          "claim_id": "immich-app-immich-curated-3",
+          "field": "decision_axis_3",
+          "statement": "EXIF/map metadata viewing; mobile and web",
+          "upstream_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/README.md",
+          "version_or_commit": "9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee",
+          "checked_at": "2026-11-21T21:15:08.972610+08:00",
+          "snapshot_path": "sources/snapshots/immich-app--immich-readme.txt",
+          "line_start": 90,
+          "line_end": 90,
+          "upstream_excerpt": "| Metadata view (EXIF, map)                    | Yes    | Yes |",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        }
+      ],
+      "evidence_record": "sources/snapshots/immich-app--immich-observation.json"
+    },
+    {
+      "name": "PhotoPrism",
+      "repository": "photoprism/photoprism",
+      "url": "https://github.com/photoprism/photoprism",
+      "clone_url": "https://github.com/photoprism/photoprism.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:09.226891+08:00",
+      "version_or_commit": "6383b439983d6a9d558876f64a5cdb83477df9df",
+      "branch_at_observation": "develop",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/README.md",
+          "final_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/README.md",
+          "path": "sources/snapshots/photoprism--photoprism-readme.txt",
+          "sha256": "e97ed79e2fa7797160ad6bb29eeb487b79eb0e39be65b7049040d9042d99c228",
+          "http_status": 200,
+          "line_count": 111,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/LICENSE",
+          "path": "sources/snapshots/photoprism--photoprism-license.txt",
+          "sha256": "f703a5ce3a8b0f68d3b19327bac8e881d537b80732f7deebb8f0ba2fb63bc982",
+          "http_status": 200,
+          "line_count": 646,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/photoprism/photoprism.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/develop\tHEAD\n6383b439983d6a9d558876f64a5cdb83477df9df\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "photoprism--photoprism-axis-2",
+          "field": "decision_axis_2",
+          "statement": "PhotoPrism\u00ae is an AI-powered, privacy-first app for browsing, organizing, and sharing photos and videos. It helps tag, search, and rediscover media without getting in your way, whether self-hosted or \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/README.md",
+          "version_or_commit": "6383b439983d6a9d558876f64a5cdb83477df9df",
+          "checked_at": "2026-11-21T21:15:09.226891+08:00",
+          "snapshot_path": "sources/snapshots/photoprism--photoprism-readme.txt",
+          "line_start": 11,
+          "line_end": 11,
+          "upstream_excerpt": "PhotoPrism\u00ae is an AI-powered, privacy-first app for browsing, organizing, and sharing photos and videos. It helps tag, search, and rediscover media without getting in your way, whether self-hosted or in the cloud.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "photoprism--photoprism-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Metadata can be extracted and merged from Exif, XMP, and other sources like Google Photos",
+          "upstream_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/README.md",
+          "version_or_commit": "6383b439983d6a9d558876f64a5cdb83477df9df",
+          "checked_at": "2026-11-21T21:15:09.226891+08:00",
+          "snapshot_path": "sources/snapshots/photoprism--photoprism-readme.txt",
+          "line_start": 29,
+          "line_end": 29,
+          "upstream_excerpt": "* Metadata can be extracted and merged from Exif, XMP, and other sources like Google Photos",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "photoprism--photoprism-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0 core with separately offered paid features/support",
+          "upstream_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/LICENSE",
+          "version_or_commit": "6383b439983d6a9d558876f64a5cdb83477df9df",
+          "checked_at": "2026-11-21T21:15:09.226891+08:00",
+          "snapshot_path": "sources/snapshots/photoprism--photoprism-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/photoprism--photoprism-observation.json"
+    },
+    {
+      "name": "LibrePhotos",
+      "repository": "LibrePhotos/librephotos",
+      "url": "https://github.com/LibrePhotos/librephotos",
+      "clone_url": "https://github.com/LibrePhotos/librephotos.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:10.406057+08:00",
+      "version_or_commit": "6340b20847d78d42aef11efb1f0a5db8b3cc194e",
+      "branch_at_observation": "dev",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/README.md",
+          "final_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/README.md",
+          "path": "sources/snapshots/librephotos--librephotos-readme.txt",
+          "sha256": "6370fc0704e91f6455be66bff5cf1d4ff11741612118efe1c366a810acfd4534",
+          "http_status": 200,
+          "line_count": 132,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/LICENSE",
+          "path": "sources/snapshots/librephotos--librephotos-license.txt",
+          "sha256": "47516f9d029d16de95277840d186df8d21bf9963bfddc5afb4223d7160c6d48d",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/LibrePhotos/librephotos.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/dev\tHEAD\n6340b20847d78d42aef11efb1f0a5db8b3cc194e\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "librephotos--librephotos-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Scans your existing folders and accepts uploads from the web and mobile apps",
+          "upstream_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/README.md",
+          "version_or_commit": "6340b20847d78d42aef11efb1f0a5db8b3cc194e",
+          "checked_at": "2026-11-21T21:15:10.406057+08:00",
+          "snapshot_path": "sources/snapshots/librephotos--librephotos-readme.txt",
+          "line_start": 54,
+          "line_end": 54,
+          "upstream_excerpt": "  - Scans your existing folders and accepts uploads from the web and mobile apps",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "librephotos--librephotos-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Multiple users, shared albums and public links - Albums generated from events, like \"Saturday in Lisbon\"",
+          "upstream_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/README.md",
+          "version_or_commit": "6340b20847d78d42aef11efb1f0a5db8b3cc194e",
+          "checked_at": "2026-11-21T21:15:10.406057+08:00",
+          "snapshot_path": "sources/snapshots/librephotos--librephotos-readme.txt",
+          "line_start": 55,
+          "line_end": 56,
+          "upstream_excerpt": "  - Multiple users, shared albums and public links\n  - Albums generated from events, like \"Saturday in Lisbon\"",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "librephotos--librephotos-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Semantic search (\"dog on a beach\") and search by metadata - RAW+JPEG pairs kept as one photo, burst and bracket stacks, and duplicate detection",
+          "upstream_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/README.md",
+          "version_or_commit": "6340b20847d78d42aef11efb1f0a5db8b3cc194e",
+          "checked_at": "2026-11-21T21:15:10.406057+08:00",
+          "snapshot_path": "sources/snapshots/librephotos--librephotos-readme.txt",
+          "line_start": 60,
+          "line_end": 61,
+          "upstream_excerpt": "  - Semantic search (\"dog on a beach\") and search by metadata\n  - RAW+JPEG pairs kept as one photo, burst and bracket stacks, and duplicate detection",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "librephotos--librephotos-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/LICENSE",
+          "version_or_commit": "6340b20847d78d42aef11efb1f0a5db8b3cc194e",
+          "checked_at": "2026-11-21T21:15:10.406057+08:00",
+          "snapshot_path": "sources/snapshots/librephotos--librephotos-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2017 Hooram Nam\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/librephotos--librephotos-observation.json"
+    },
+    {
+      "name": "PiGallery2",
+      "repository": "bpatrik/pigallery2",
+      "url": "https://github.com/bpatrik/pigallery2",
+      "clone_url": "https://github.com/bpatrik/pigallery2.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:10.122491+08:00",
+      "version_or_commit": "c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/README.md",
+          "final_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/README.md",
+          "path": "sources/snapshots/bpatrik--pigallery2-readme.txt",
+          "sha256": "997041ff3d541221a00e22d469b71aed49a4d8bbc55928293cc2966d50e2861d",
+          "http_status": 200,
+          "line_count": 59,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/LICENSE",
+          "path": "sources/snapshots/bpatrik--pigallery2-license.txt",
+          "sha256": "a6a1ced1297392e5d8d39c72b023df7b12f44943d7f83748231bc92c99fd3bb7",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/bpatrik/pigallery2.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nc741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "bpatrik--pigallery2-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- \ud83d\udcc1 Directory-first: Shows your folder structure as it is. - Read-only: Your photo folder is never modified.",
+          "upstream_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/README.md",
+          "version_or_commit": "c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b",
+          "checked_at": "2026-11-21T21:15:10.122491+08:00",
+          "snapshot_path": "sources/snapshots/bpatrik--pigallery2-readme.txt",
+          "line_start": 13,
+          "line_end": 14,
+          "upstream_excerpt": "- **\ud83d\udcc1 Directory-first**: Shows your folder structure as it is.\n- **Read-only**: Your photo folder is never modified.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bpatrik--pigallery2-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/LICENSE",
+          "version_or_commit": "c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b",
+          "checked_at": "2026-11-21T21:15:10.122491+08:00",
+          "snapshot_path": "sources/snapshots/bpatrik--pigallery2-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "The MIT License (MIT)\n\nCopyright (c) 2016 bpatrik\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/bpatrik--pigallery2-observation.json"
+    },
+    {
+      "name": "PhotoView",
+      "repository": "photoview/photoview",
+      "url": "https://github.com/photoview/photoview",
+      "clone_url": "https://github.com/photoview/photoview.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:11.624059+08:00",
+      "version_or_commit": "7cd83fb845d5af0ef98792e8c8094894f489773f",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/README.md",
+          "final_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/README.md",
+          "path": "sources/snapshots/photoview--photoview-readme.txt",
+          "sha256": "e02160537309e50ca0b72dd5084e8621331822aa3e3692d7ca34d3f434aa777f",
+          "http_status": 200,
+          "line_count": 478,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/LICENSE.txt",
+          "path": "sources/snapshots/photoview--photoview-license.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/photoview/photoview.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n7cd83fb845d5af0ef98792e8c8094894f489773f\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "photoview--photoview-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Photoview is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.",
+          "upstream_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/README.md",
+          "version_or_commit": "7cd83fb845d5af0ef98792e8c8094894f489773f",
+          "checked_at": "2026-11-21T21:15:11.624059+08:00",
+          "snapshot_path": "sources/snapshots/photoview--photoview-readme.txt",
+          "line_start": 11,
+          "line_end": 11,
+          "upstream_excerpt": "Photoview is a simple and user-friendly photo gallery that's made for photographers and aims to provide an easy and fast way to navigate directories, with thousands of high-resolution photos.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "photoview--photoview-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Have support for multiple users and ways to share albums and photos also publicly",
+          "upstream_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/README.md",
+          "version_or_commit": "7cd83fb845d5af0ef98792e8c8094894f489773f",
+          "checked_at": "2026-11-21T21:15:11.624059+08:00",
+          "snapshot_path": "sources/snapshots/photoview--photoview-readme.txt",
+          "line_start": 142,
+          "line_end": 142,
+          "upstream_excerpt": "- Have support for multiple users and ways to share albums and photos also publicly",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "photoview--photoview-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Made for photography. Photoview is built with photographers in mind, and thus supports RAW file formats, and EXIF parsing.",
+          "upstream_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/README.md",
+          "version_or_commit": "7cd83fb845d5af0ef98792e8c8094894f489773f",
+          "checked_at": "2026-11-21T21:15:11.624059+08:00",
+          "snapshot_path": "sources/snapshots/photoview--photoview-readme.txt",
+          "line_start": 90,
+          "line_end": 90,
+          "upstream_excerpt": "- **Made for photography**. Photoview is built with photographers in mind, and thus supports **RAW** file formats, and **EXIF** parsing.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "photoview--photoview-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/photoview/photoview/7cd83fb845d5af0ef98792e8c8094894f489773f/LICENSE.txt",
+          "version_or_commit": "7cd83fb845d5af0ef98792e8c8094894f489773f",
+          "checked_at": "2026-11-21T21:15:11.624059+08:00",
+          "snapshot_path": "sources/snapshots/photoview--photoview-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/photoview--photoview-observation.json"
+    },
+    {
+      "name": "Lychee",
+      "repository": "LycheeOrg/Lychee",
+      "url": "https://github.com/LycheeOrg/Lychee",
+      "clone_url": "https://github.com/LycheeOrg/Lychee.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:14.205816+08:00",
+      "version_or_commit": "ef9339bac648a30557fb4e8dfda65af9d3e67268",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/README.md",
+          "final_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/README.md",
+          "path": "sources/snapshots/lycheeorg--lychee-readme.txt",
+          "sha256": "73415ea55d6bdcf1976b795bb9c3d8fe2f8c31518ff8dddf40dd74709bb7532b",
+          "http_status": 200,
+          "line_count": 144,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/LICENSE",
+          "path": "sources/snapshots/lycheeorg--lychee-license.txt",
+          "sha256": "ded925c65b434544829558c614c41a58eee27a3996b03e9faa80f92d9784c155",
+          "http_status": 200,
+          "line_count": 22,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/LycheeOrg/Lychee.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nef9339bac648a30557fb4e8dfda65af9d3e67268\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "lycheeorg--lychee-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/LICENSE",
+          "version_or_commit": "ef9339bac648a30557fb4e8dfda65af9d3e67268",
+          "checked_at": "2026-11-21T21:15:14.205816+08:00",
+          "snapshot_path": "sources/snapshots/lycheeorg--lychee-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "The MIT License (MIT)\n\nCopyright (c) 2017-2018 Tobias Reich\nCopyright (c) 2018-2026 LycheeOrg\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "lycheeorg-lychee-curated-1",
+          "field": "decision_axis_1",
+          "statement": "Uploads are managed by the server gallery",
+          "upstream_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/README.md",
+          "version_or_commit": "ef9339bac648a30557fb4e8dfda65af9d3e67268",
+          "checked_at": "2026-11-21T21:15:14.205816+08:00",
+          "snapshot_path": "sources/snapshots/lycheeorg--lychee-readme.txt",
+          "line_start": 21,
+          "line_end": 21,
+          "upstream_excerpt": "Lychee is a free, open-source photo-management tool that runs on your server or web space. Installation is quick and easy, taking just seconds. With Lychee, you can upload, manage, and share your photos seamlessly, just like using a native application. It comes with all the essential features you need, ensuring your photos are stored securely. Read more on our [website](https://LycheeOrg.dev).",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        },
+        {
+          "claim_id": "lycheeorg-lychee-curated-2",
+          "field": "decision_axis_2",
+          "statement": "Photo sharing through the server gallery",
+          "upstream_url": "https://raw.githubusercontent.com/LycheeOrg/Lychee/ef9339bac648a30557fb4e8dfda65af9d3e67268/README.md",
+          "version_or_commit": "ef9339bac648a30557fb4e8dfda65af9d3e67268",
+          "checked_at": "2026-11-21T21:15:14.205816+08:00",
+          "snapshot_path": "sources/snapshots/lycheeorg--lychee-readme.txt",
+          "line_start": 21,
+          "line_end": 21,
+          "upstream_excerpt": "Lychee is a free, open-source photo-management tool that runs on your server or web space. Installation is quick and easy, taking just seconds. With Lychee, you can upload, manage, and share your photos seamlessly, just like using a native application. It comes with all the essential features you need, ensuring your photos are stored securely. Read more on our [website](https://LycheeOrg.dev).",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        }
+      ],
+      "evidence_record": "sources/snapshots/lycheeorg--lychee-observation.json"
+    },
+    {
+      "name": "Ente",
+      "repository": "ente/ente",
+      "url": "https://github.com/ente/ente",
+      "clone_url": "https://github.com/ente/ente.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:14.200414+08:00",
+      "version_or_commit": "b251f2e34d1e268d9dcf8f08b127af94236329ef",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/README.md",
+          "final_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/README.md",
+          "path": "sources/snapshots/ente--ente-readme.txt",
+          "sha256": "d2af70e256ff732ddc002cd3f6937fa8deb1bb9f46fd130d4f5bb418b7a608fc",
+          "http_status": 200,
+          "line_count": 109,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/LICENSE",
+          "path": "sources/snapshots/ente--ente-license.txt",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/ente/ente.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nb251f2e34d1e268d9dcf8f08b127af94236329ef\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "ente--ente-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Ente is a service that provides a fully open source, end-to-end encrypted platform for you to store your data in the cloud without needing to trust the service provider. On top of this platform, we ha\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/README.md",
+          "version_or_commit": "b251f2e34d1e268d9dcf8f08b127af94236329ef",
+          "checked_at": "2026-11-21T21:15:14.200414+08:00",
+          "snapshot_path": "sources/snapshots/ente--ente-readme.txt",
+          "line_start": 11,
+          "line_end": 11,
+          "upstream_excerpt": "Ente is a service that provides a fully open source, end-to-end encrypted platform for you to store your data in the cloud without needing to trust the service provider. On top of this platform, we have built three apps so far: Ente Photos (an alternative to Apple and Google Photos), Ente Locker (a safe space for your most important documents and credentials), and Ente Auth (a 2FA alternative to the deprecated Authy).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "ente--ente-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Our flagship product. 3x data replication. Face detection. Semantic search. Private sharing. Collaborative albums. Family plans. Easy import, easier export. Background uploads. The list goes on. And o\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/README.md",
+          "version_or_commit": "b251f2e34d1e268d9dcf8f08b127af94236329ef",
+          "checked_at": "2026-11-21T21:15:14.200414+08:00",
+          "snapshot_path": "sources/snapshots/ente--ente-readme.txt",
+          "line_start": 25,
+          "line_end": 25,
+          "upstream_excerpt": "Our flagship product. 3x data replication. Face detection. Semantic search. Private sharing. Collaborative albums. Family plans. Easy import, easier export. Background uploads. The list goes on. And of course, all of this, while being fully end-to-end encrypted across platforms.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "ente--ente-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Our flagship product. 3x data replication. Face detection. Semantic search. Private sharing. Collaborative albums. Family plans. Easy import, easier export. Background uploads. The list goes on. And o\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/README.md",
+          "version_or_commit": "b251f2e34d1e268d9dcf8f08b127af94236329ef",
+          "checked_at": "2026-11-21T21:15:14.200414+08:00",
+          "snapshot_path": "sources/snapshots/ente--ente-readme.txt",
+          "line_start": 25,
+          "line_end": 25,
+          "upstream_excerpt": "Our flagship product. 3x data replication. Face detection. Semantic search. Private sharing. Collaborative albums. Family plans. Easy import, easier export. Background uploads. The list goes on. And of course, all of this, while being fully end-to-end encrypted across platforms.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "ente--ente-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0 root; check any component-specific license in the selected release",
+          "upstream_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/LICENSE",
+          "version_or_commit": "b251f2e34d1e268d9dcf8f08b127af94236329ef",
+          "checked_at": "2026-11-21T21:15:14.200414+08:00",
+          "snapshot_path": "sources/snapshots/ente--ente-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/ente--ente-observation.json"
+    },
+    {
+      "name": "Damselfly",
+      "repository": "Webreaper/Damselfly",
+      "url": "https://github.com/Webreaper/Damselfly",
+      "clone_url": "https://github.com/Webreaper/Damselfly.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:14.781152+08:00",
+      "version_or_commit": "e110926104cc93d3c87a9617ba7ab4ae70dbb216",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/README.md",
+          "final_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/README.md",
+          "path": "sources/snapshots/webreaper--damselfly-readme.txt",
+          "sha256": "403ca6ea13eacb3fedab053a9973efb8f179fbf7a90aca0a17a211ce532919a2",
+          "http_status": 200,
+          "line_count": 148,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/LICENSE",
+          "path": "sources/snapshots/webreaper--damselfly-license.txt",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Webreaper/Damselfly.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\ne110926104cc93d3c87a9617ba7ab4ae70dbb216\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "webreaper--damselfly-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Completely automated background indexing of images, so that the collection is automatically and quickly updated",
+          "upstream_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/README.md",
+          "version_or_commit": "e110926104cc93d3c87a9617ba7ab4ae70dbb216",
+          "checked_at": "2026-11-21T21:15:14.781152+08:00",
+          "snapshot_path": "sources/snapshots/webreaper--damselfly-readme.txt",
+          "line_start": 56,
+          "line_end": 56,
+          "upstream_excerpt": "* Completely automated background indexing of images, so that the collection is automatically and quickly updated ",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "webreaper--damselfly-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Multi-user support with user accounts, and role-based entitlements (e.g., users with ReadOnly",
+          "upstream_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/README.md",
+          "version_or_commit": "e110926104cc93d3c87a9617ba7ab4ae70dbb216",
+          "checked_at": "2026-11-21T21:15:14.781152+08:00",
+          "snapshot_path": "sources/snapshots/webreaper--damselfly-readme.txt",
+          "line_start": 44,
+          "line_end": 44,
+          "upstream_excerpt": "* [Multi-user support with user accounts](./docs/Multi-user.md), and role-based entitlements (e.g., users with ReadOnly ",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "webreaper--damselfly-axis-3",
+          "field": "decision_axis_3",
+          "statement": "GeoLocation with map display of photo locations where metadata exists",
+          "upstream_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/README.md",
+          "version_or_commit": "e110926104cc93d3c87a9617ba7ab4ae70dbb216",
+          "checked_at": "2026-11-21T21:15:14.781152+08:00",
+          "snapshot_path": "sources/snapshots/webreaper--damselfly-readme.txt",
+          "line_start": 47,
+          "line_end": 47,
+          "upstream_excerpt": "* GeoLocation with map display of photo locations where metadata exists",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "webreaper--damselfly-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/LICENSE",
+          "version_or_commit": "e110926104cc93d3c87a9617ba7ab4ae70dbb216",
+          "checked_at": "2026-11-21T21:15:14.781152+08:00",
+          "snapshot_path": "sources/snapshots/webreaper--damselfly-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/webreaper--damselfly-observation.json"
+    },
+    {
+      "name": "Piwigo",
+      "repository": "Piwigo/Piwigo",
+      "url": "https://github.com/Piwigo/Piwigo",
+      "clone_url": "https://github.com/Piwigo/Piwigo.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:15.874552+08:00",
+      "version_or_commit": "2224114b2de8e11f77ac55e81c69ac1e8e4264d3",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/README.md",
+          "final_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/README.md",
+          "path": "sources/snapshots/piwigo--piwigo-readme.txt",
+          "sha256": "60d3b2af9b6fa22deab21d496aa9ff49e1fa9cb0f9eff4d5bfb29a0210334fd4",
+          "http_status": 200,
+          "line_count": 38,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/LICENSE.txt",
+          "path": "sources/snapshots/piwigo--piwigo-license.txt",
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+          "http_status": 200,
+          "line_count": 339,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Piwigo/Piwigo.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n2224114b2de8e11f77ac55e81c69ac1e8e4264d3\tHEAD\ncc27a535724e0602b73aae0d5ece6b60fb9554dc\trefs/remotes/origin/HEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "piwigo--piwigo-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Manage your photo library. Piwigo is open source photo gallery software for the web. Designed for organisations, teams and individuals.",
+          "upstream_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/README.md",
+          "version_or_commit": "2224114b2de8e11f77ac55e81c69ac1e8e4264d3",
+          "checked_at": "2026-11-21T21:15:15.874552+08:00",
+          "snapshot_path": "sources/snapshots/piwigo--piwigo-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Manage your photo library. Piwigo is open source photo gallery software for the web. Designed for organisations, teams and individuals.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "piwigo--piwigo-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Manage your photo library. Piwigo is open source photo gallery software for the web. Designed for organisations, teams and individuals.",
+          "upstream_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/README.md",
+          "version_or_commit": "2224114b2de8e11f77ac55e81c69ac1e8e4264d3",
+          "checked_at": "2026-11-21T21:15:15.874552+08:00",
+          "snapshot_path": "sources/snapshots/piwigo--piwigo-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Manage your photo library. Piwigo is open source photo gallery software for the web. Designed for organisations, teams and individuals.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "piwigo--piwigo-license",
+          "field": "license_model",
+          "statement": "GPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/LICENSE.txt",
+          "version_or_commit": "2224114b2de8e11f77ac55e81c69ac1e8e4264d3",
+          "checked_at": "2026-11-21T21:15:15.874552+08:00",
+          "snapshot_path": "sources/snapshots/piwigo--piwigo-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.,\n 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The licenses for most software are designed to take away your\nfreedom to share and change it.  By contrast, the GNU General Public",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/piwigo--piwigo-observation.json"
+    },
+    {
+      "name": "Memories",
+      "repository": "pulsejet/memories",
+      "url": "https://github.com/pulsejet/memories",
+      "clone_url": "https://github.com/pulsejet/memories.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:18.447265+08:00",
+      "version_or_commit": "504243ba5eb07cf29770e5802ca91874e960e681",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/README.md",
+          "final_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/README.md",
+          "path": "sources/snapshots/pulsejet--memories-readme.txt",
+          "sha256": "b02b96b85541ec99dc2979b8e2125fbf2d858daaf940272d14f5270096bf33c0",
+          "http_status": 200,
+          "line_count": 109,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/COPYING",
+          "final_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/COPYING",
+          "path": "sources/snapshots/pulsejet--memories-license.txt",
+          "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/pulsejet/memories.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n504243ba5eb07cf29770e5802ca91874e960e681\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "pulsejet--memories-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- For automatic uploads, you can use the official Nextcloud mobile apps.",
+          "upstream_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/README.md",
+          "version_or_commit": "504243ba5eb07cf29770e5802ca91874e960e681",
+          "checked_at": "2026-11-21T21:15:18.447265+08:00",
+          "snapshot_path": "sources/snapshots/pulsejet--memories-readme.txt",
+          "line_start": 49,
+          "line_end": 49,
+          "upstream_excerpt": "- For automatic uploads, you can use the official Nextcloud mobile apps. ",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "pulsejet--memories-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- \ud83d\uddbc\ufe0f Albums: Create albums to group photos and videos together. Then share these albums with others. - \ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udffb External Sharing: Share photos and videos with people outside of your Nextcloud instance.",
+          "upstream_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/README.md",
+          "version_or_commit": "504243ba5eb07cf29770e5802ca91874e960e681",
+          "checked_at": "2026-11-21T21:15:18.447265+08:00",
+          "snapshot_path": "sources/snapshots/pulsejet--memories-readme.txt",
+          "line_start": 28,
+          "line_end": 29,
+          "upstream_excerpt": "- **\ud83d\uddbc\ufe0f Albums**: Create albums to group photos and videos together. Then share these albums with others.\n- **\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udffb External Sharing**: Share photos and videos with people outside of your Nextcloud instance.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "pulsejet--memories-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- \u270f\ufe0f Edit Metadata: Edit dates and other metadata on photos quickly and in bulk.",
+          "upstream_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/README.md",
+          "version_or_commit": "504243ba5eb07cf29770e5802ca91874e960e681",
+          "checked_at": "2026-11-21T21:15:18.447265+08:00",
+          "snapshot_path": "sources/snapshots/pulsejet--memories-readme.txt",
+          "line_start": 31,
+          "line_end": 31,
+          "upstream_excerpt": "- **\u270f\ufe0f Edit Metadata**: Edit dates and other metadata on photos quickly and in bulk.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "pulsejet--memories-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0; subpackages may use their own licenses",
+          "upstream_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/COPYING",
+          "version_or_commit": "504243ba5eb07cf29770e5802ca91874e960e681",
+          "checked_at": "2026-11-21T21:15:18.447265+08:00",
+          "snapshot_path": "sources/snapshots/pulsejet--memories-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/pulsejet--memories-observation.json"
+    },
+    {
+      "name": "HomeGallery",
+      "repository": "xemle/home-gallery",
+      "url": "https://github.com/xemle/home-gallery",
+      "clone_url": "https://github.com/xemle/home-gallery.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:19.026570+08:00",
+      "version_or_commit": "7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/README.md",
+          "final_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/README.md",
+          "path": "sources/snapshots/xemle--home-gallery-readme.txt",
+          "sha256": "4231da90add3bbfea5a6aa37a3ff11041d75fc83cb0c7e569d72d6b921e96240",
+          "http_status": 200,
+          "line_count": 249,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/LICENSE",
+          "path": "sources/snapshots/xemle--home-gallery-license.txt",
+          "sha256": "1962a2835c7de7415990d3b650bc85df21b777ea37f46be8ad3f4b56d57c2ca7",
+          "http_status": 200,
+          "line_count": 20,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/xemle/home-gallery.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "xemle--home-gallery-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Support of read only and offline media sources. Once the preview files are generated and their meta data are extracted, the original sources are not touched and required any more. So media from offl\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/README.md",
+          "version_or_commit": "7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3",
+          "checked_at": "2026-11-21T21:15:19.026570+08:00",
+          "snapshot_path": "sources/snapshots/xemle--home-gallery-readme.txt",
+          "line_start": 118,
+          "line_end": 118,
+          "upstream_excerpt": "- Support of read only and offline media sources. Once the preview files are generated and their meta data are extracted, the original sources are not touched and required any more. So media from offline disk need to be extracted only once and the disk can stay offline on next runs",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "xemle--home-gallery-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Meta data export to XMP sidecar files",
+          "upstream_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/README.md",
+          "version_or_commit": "7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3",
+          "checked_at": "2026-11-21T21:15:19.026570+08:00",
+          "snapshot_path": "sources/snapshots/xemle--home-gallery-readme.txt",
+          "line_start": 122,
+          "line_end": 122,
+          "upstream_excerpt": "- Meta data export to XMP sidecar files",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "xemle--home-gallery-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/LICENSE",
+          "version_or_commit": "7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3",
+          "checked_at": "2026-11-21T21:15:19.026570+08:00",
+          "snapshot_path": "sources/snapshots/xemle--home-gallery-license.txt",
+          "line_start": 12,
+          "line_end": 12,
+          "upstream_excerpt": "included in all copies or substantial portions of the Software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/xemle--home-gallery-observation.json"
+    },
+    {
+      "name": "Photofield",
+      "repository": "smilyorg/photofield",
+      "url": "https://github.com/smilyorg/photofield",
+      "clone_url": "https://github.com/smilyorg/photofield.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:20.083288+08:00",
+      "version_or_commit": "a0e647a0fa15ee235a29762b5d6678236142f101",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/README.md",
+          "final_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/README.md",
+          "path": "sources/snapshots/smilyorg--photofield-readme.txt",
+          "sha256": "ce877f65be853ddc6a43494ef669f078ee9456d73365755b755350880d132a34",
+          "http_status": 200,
+          "line_count": 330,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/LICENSE",
+          "path": "sources/snapshots/smilyorg--photofield-license.txt",
+          "sha256": "56816d3e992ab0a4b70631fa2d47b1aa833898a63b49973cb14c1fafcdcb1839",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/smilyorg/photofield.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\na0e647a0fa15ee235a29762b5d6678236142f101\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "smilyorg--photofield-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Read-only file system based collections. The original files are not touched. You are encouraged to even mount your photos as read-only to ensure",
+          "upstream_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/README.md",
+          "version_or_commit": "a0e647a0fa15ee235a29762b5d6678236142f101",
+          "checked_at": "2026-11-21T21:15:20.083288+08:00",
+          "snapshot_path": "sources/snapshots/smilyorg--photofield-readme.txt",
+          "line_start": 99,
+          "line_end": 100,
+          "upstream_excerpt": "* **Read-only file system based collections**. The original files are not\n  touched. You are encouraged to even mount your photos as read-only to ensure",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "smilyorg--photofield-axis-3",
+          "field": "decision_axis_3",
+          "statement": "EXIF metadata and [prominent color] are extracted as separate follow-up operations and run at up to ~200 files/sec and ~1000 files/sec on a fast system.",
+          "upstream_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/README.md",
+          "version_or_commit": "a0e647a0fa15ee235a29762b5d6678236142f101",
+          "checked_at": "2026-11-21T21:15:20.083288+08:00",
+          "snapshot_path": "sources/snapshots/smilyorg--photofield-readme.txt",
+          "line_start": 105,
+          "line_end": 106,
+          "upstream_excerpt": "  EXIF metadata and [prominent color] are extracted as separate follow-up\n  operations and run at up to ~200 files/sec and ~1000 files/sec on a fast system.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "smilyorg--photofield-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/LICENSE",
+          "version_or_commit": "a0e647a0fa15ee235a29762b5d6678236142f101",
+          "checked_at": "2026-11-21T21:15:20.083288+08:00",
+          "snapshot_path": "sources/snapshots/smilyorg--photofield-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2020-2026 Miha Lunar\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/smilyorg--photofield-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:03.056149+08:00",
+  "review_round": "narrow_remediation"
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "LibrePhotos/librephotos",
+  "checked_at": "2026-11-21T21:15:10.406057+08:00",
+  "revision": "6340b20847d78d42aef11efb1f0a5db8b3cc194e",
+  "branch": "dev",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/LibrePhotos/librephotos.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/dev\tHEAD\n6340b20847d78d42aef11efb1f0a5db8b3cc194e\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/README.md",
+      "final_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/README.md",
+      "path": "sources/snapshots/librephotos--librephotos-readme.txt",
+      "sha256": "6370fc0704e91f6455be66bff5cf1d4ff11741612118efe1c366a810acfd4534",
+      "http_status": 200,
+      "line_count": 132,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/LibrePhotos/librephotos/6340b20847d78d42aef11efb1f0a5db8b3cc194e/LICENSE",
+      "path": "sources/snapshots/librephotos--librephotos-license.txt",
+      "sha256": "47516f9d029d16de95277840d186df8d21bf9963bfddc5afb4223d7160c6d48d",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

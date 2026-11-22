@@ -1,0 +1,38 @@
+{
+  "repository": "photoprism/photoprism",
+  "checked_at": "2026-11-21T21:15:09.226891+08:00",
+  "revision": "6383b439983d6a9d558876f64a5cdb83477df9df",
+  "branch": "develop",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/photoprism/photoprism.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/develop\tHEAD\n6383b439983d6a9d558876f64a5cdb83477df9df\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/README.md",
+      "final_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/README.md",
+      "path": "sources/snapshots/photoprism--photoprism-readme.txt",
+      "sha256": "e97ed79e2fa7797160ad6bb29eeb487b79eb0e39be65b7049040d9042d99c228",
+      "http_status": 200,
+      "line_count": 111,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/photoprism/photoprism/6383b439983d6a9d558876f64a5cdb83477df9df/LICENSE",
+      "path": "sources/snapshots/photoprism--photoprism-license.txt",
+      "sha256": "f703a5ce3a8b0f68d3b19327bac8e881d537b80732f7deebb8f0ba2fb63bc982",
+      "http_status": 200,
+      "line_count": 646,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

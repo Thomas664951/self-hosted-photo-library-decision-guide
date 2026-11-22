@@ -1,0 +1,38 @@
+{
+  "repository": "Piwigo/Piwigo",
+  "checked_at": "2026-11-21T21:15:15.874552+08:00",
+  "revision": "2224114b2de8e11f77ac55e81c69ac1e8e4264d3",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Piwigo/Piwigo.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n2224114b2de8e11f77ac55e81c69ac1e8e4264d3\tHEAD\ncc27a535724e0602b73aae0d5ece6b60fb9554dc\trefs/remotes/origin/HEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/README.md",
+      "final_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/README.md",
+      "path": "sources/snapshots/piwigo--piwigo-readme.txt",
+      "sha256": "60d3b2af9b6fa22deab21d496aa9ff49e1fa9cb0f9eff4d5bfb29a0210334fd4",
+      "http_status": 200,
+      "line_count": 38,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/Piwigo/Piwigo/2224114b2de8e11f77ac55e81c69ac1e8e4264d3/LICENSE.txt",
+      "path": "sources/snapshots/piwigo--piwigo-license.txt",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "http_status": 200,
+      "line_count": 339,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

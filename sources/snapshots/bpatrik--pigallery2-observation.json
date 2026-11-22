@@ -1,0 +1,38 @@
+{
+  "repository": "bpatrik/pigallery2",
+  "checked_at": "2026-11-21T21:15:10.122491+08:00",
+  "revision": "c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/bpatrik/pigallery2.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nc741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/README.md",
+      "final_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/README.md",
+      "path": "sources/snapshots/bpatrik--pigallery2-readme.txt",
+      "sha256": "997041ff3d541221a00e22d469b71aed49a4d8bbc55928293cc2966d50e2861d",
+      "http_status": 200,
+      "line_count": 59,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/bpatrik/pigallery2/c741ee2ff78e4b4ed11dbb1cbbb2eef50f32309b/LICENSE",
+      "path": "sources/snapshots/bpatrik--pigallery2-license.txt",
+      "sha256": "a6a1ced1297392e5d8d39c72b023df7b12f44943d7f83748231bc92c99fd3bb7",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "smilyorg/photofield",
+  "checked_at": "2026-11-21T21:15:20.083288+08:00",
+  "revision": "a0e647a0fa15ee235a29762b5d6678236142f101",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/smilyorg/photofield.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\na0e647a0fa15ee235a29762b5d6678236142f101\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/README.md",
+      "final_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/README.md",
+      "path": "sources/snapshots/smilyorg--photofield-readme.txt",
+      "sha256": "ce877f65be853ddc6a43494ef669f078ee9456d73365755b755350880d132a34",
+      "http_status": 200,
+      "line_count": 330,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/smilyorg/photofield/a0e647a0fa15ee235a29762b5d6678236142f101/LICENSE",
+      "path": "sources/snapshots/smilyorg--photofield-license.txt",
+      "sha256": "56816d3e992ab0a4b70631fa2d47b1aa833898a63b49973cb14c1fafcdcb1839",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

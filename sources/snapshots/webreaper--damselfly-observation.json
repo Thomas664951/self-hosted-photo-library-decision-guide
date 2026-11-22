@@ -1,0 +1,38 @@
+{
+  "repository": "Webreaper/Damselfly",
+  "checked_at": "2026-11-21T21:15:14.781152+08:00",
+  "revision": "e110926104cc93d3c87a9617ba7ab4ae70dbb216",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Webreaper/Damselfly.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\ne110926104cc93d3c87a9617ba7ab4ae70dbb216\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/README.md",
+      "final_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/README.md",
+      "path": "sources/snapshots/webreaper--damselfly-readme.txt",
+      "sha256": "403ca6ea13eacb3fedab053a9973efb8f179fbf7a90aca0a17a211ce532919a2",
+      "http_status": 200,
+      "line_count": 148,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/Webreaper/Damselfly/e110926104cc93d3c87a9617ba7ab4ae70dbb216/LICENSE",
+      "path": "sources/snapshots/webreaper--damselfly-license.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

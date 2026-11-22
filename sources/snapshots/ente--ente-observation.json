@@ -1,0 +1,38 @@
+{
+  "repository": "ente/ente",
+  "checked_at": "2026-11-21T21:15:14.200414+08:00",
+  "revision": "b251f2e34d1e268d9dcf8f08b127af94236329ef",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/ente/ente.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nb251f2e34d1e268d9dcf8f08b127af94236329ef\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/README.md",
+      "final_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/README.md",
+      "path": "sources/snapshots/ente--ente-readme.txt",
+      "sha256": "d2af70e256ff732ddc002cd3f6937fa8deb1bb9f46fd130d4f5bb418b7a608fc",
+      "http_status": 200,
+      "line_count": 109,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/ente/ente/b251f2e34d1e268d9dcf8f08b127af94236329ef/LICENSE",
+      "path": "sources/snapshots/ente--ente-license.txt",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "immich-app/immich",
+  "checked_at": "2026-11-21T21:15:08.972610+08:00",
+  "revision": "9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/immich-app/immich.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/README.md",
+      "final_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/README.md",
+      "path": "sources/snapshots/immich-app--immich-readme.txt",
+      "sha256": "84bbc7ef610df7295eb3866785a2c8d5c8a90fd687c05aecea82344d4b970d40",
+      "http_status": 200,
+      "line_count": 128,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/immich-app/immich/9b3d3d861ccf5f52f05a2a53c3a8bfb5b9bb2aee/LICENSE",
+      "path": "sources/snapshots/immich-app--immich-license.txt",
+      "sha256": "a3bad629f67f442b23b5224419e49edafc32e6b9c876b89464f7aafe6091ccde",
+      "http_status": 200,
+      "line_count": 620,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

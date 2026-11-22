@@ -1,0 +1,38 @@
+{
+  "repository": "pulsejet/memories",
+  "checked_at": "2026-11-21T21:15:18.447265+08:00",
+  "revision": "504243ba5eb07cf29770e5802ca91874e960e681",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/pulsejet/memories.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n504243ba5eb07cf29770e5802ca91874e960e681\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/README.md",
+      "final_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/README.md",
+      "path": "sources/snapshots/pulsejet--memories-readme.txt",
+      "sha256": "b02b96b85541ec99dc2979b8e2125fbf2d858daaf940272d14f5270096bf33c0",
+      "http_status": 200,
+      "line_count": 109,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/COPYING",
+      "final_url": "https://raw.githubusercontent.com/pulsejet/memories/504243ba5eb07cf29770e5802ca91874e960e681/COPYING",
+      "path": "sources/snapshots/pulsejet--memories-license.txt",
+      "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

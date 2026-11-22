@@ -1,0 +1,38 @@
+{
+  "repository": "xemle/home-gallery",
+  "checked_at": "2026-11-21T21:15:19.026570+08:00",
+  "revision": "7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/xemle/home-gallery.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/README.md",
+      "final_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/README.md",
+      "path": "sources/snapshots/xemle--home-gallery-readme.txt",
+      "sha256": "4231da90add3bbfea5a6aa37a3ff11041d75fc83cb0c7e569d72d6b921e96240",
+      "http_status": 200,
+      "line_count": 249,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/xemle/home-gallery/7bef4087db8435f79abfd3d6e2ccdcc2a3115ef3/LICENSE",
+      "path": "sources/snapshots/xemle--home-gallery-license.txt",
+      "sha256": "1962a2835c7de7415990d3b650bc85df21b777ea37f46be8ad3f4b56d57c2ca7",
+      "http_status": 200,
+      "line_count": 20,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
