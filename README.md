@@ -1,8 +1,9 @@
 # Self-Hosted Photo Library Decision Guide
 
-> **Decision:** Choose whether the library imports and owns media, indexes an existing tree, or presents albums, then match mobile backup, RAW/video, search, and sharing needs.
 
-**For:** Families, photographers, and privacy-focused users migrating from a hosted photo cloud.  
+> **Decision:** Use this guide to choose whether a photo library owns imported media, indexes an existing tree, or presents albums before comparing search and sharing features; skip it if export and restore are out of scope.
+>
+> **For:** families, photographers, and privacy-focused users leaving a hosted photo cloud  ·  **Not for:** users seeking a benchmark winner or unwilling to round-trip representative media
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -152,6 +153,12 @@ Keep originals in a separately backed-up filesystem or object store, then let th
 
 Photo originals, derivatives, discovery and sharing, not general file synchronization or vision benchmarks.
 
+## Adjacent guides
+
+- [open-source-document-workflow-index](https://github.com/mckee19/open-source-document-workflow-index) — Use it when scans and PDFs, rather than media libraries, need OCR, records, retrieval, and preservation stages.
+- [self-hosted-file-sync-selector](https://github.com/Lindenberg668/self-hosted-file-sync-selector) — Use it when devices need replica or gateway synchronization outside the photo application.
+- [encrypted-backup-tool-selector](https://github.com/Anguianodd/encrypted-backup-tool-selector) — Use it when originals, metadata, albums, and databases need an independent encrypted restore plan.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -164,3 +171,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
