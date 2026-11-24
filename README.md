@@ -1,6 +1,5 @@
 # Self-Hosted Photo Library Decision Guide
 
-
 > **Decision:** Use this guide to choose whether a photo library owns imported media, indexes an existing tree, or presents albums before comparing search and sharing features; skip it if export and restore are out of scope.
 >
 > **For:** families, photographers, and privacy-focused users leaving a hosted photo cloud  ·  **Not for:** users seeking a benchmark winner or unwilling to round-trip representative media
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the media ownership ledger](assets/photo-ownership-map.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Mobile-first household cloud replacement: shortlist Immich and Ente, then test export and account recovery.
 - Index an existing photography tree: compare PhotoPrism, PiGallery2, PhotoView, Damselfly, HomeGallery, and Photofield.
@@ -24,12 +22,10 @@ Managed uploads, existing-tree indexes and gallery publishing require different 
 
 ## Originals and derivatives map
 
-
 - **Managed cloud replacements** — Immich and Ente center mobile clients, users, backup, and sharing; their database and recovery paths are part of the product.
 - **Indexes over existing media** — LibrePhotos, PhotoPrism, PiGallery2, PhotoView, Damselfly, HomeGallery, and Photofield vary in write behavior and ML scope; preserve the original tree independently.
 - **Gallery publishing** — Lychee and Piwigo focus on album management and sharing; compare upload ownership, plugins, and public access controls.
 - **Existing-platform app** — Memories lives in Nextcloud and inherits its storage, users, upgrades, and backup responsibilities.
-
 
 ## Media ownership ledger
 
@@ -52,9 +48,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Keep the authority path explicit
 
-
 Keep originals in a separately backed-up filesystem or object store, then let the chosen library build derivatives and indexes. Run a disposable import first, export metadata, delete the instance, and restore it. If mobile upload and an existing photo tree both feed the system, document deduplication and deletion ownership.
-
 
 ## Adoption notes by project
 
